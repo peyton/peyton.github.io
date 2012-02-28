@@ -2,4 +2,19 @@
 layout: default
 title: Peyton Randolph
 ---
-hi
+<section>
+  <h1>Back catalog</h1>
+  <ul>
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  <ul>
+</section>
+
+<section>
+  <h1><a href="https://github.com/peyton">github.com/peyton</a></h1>
+</section>
+
+<section>
+  <h1><a href="mailto:_@peytn.com">_@peytn.com</a></h1>
+</section>
