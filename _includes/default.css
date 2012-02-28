@@ -10,5 +10,4 @@ h1 { font-size:4em; }
 h2 { font-size:2em; }
 h3 { font-size:1.33333em; }
 p, li { font-family:"Minion Pro",Gentium,"Gentium Basic","Hoefler Text",Constantia,"Palatino Linotype",Georgia,serif; }
-ul { list-style: none; }
-li { margin: 0; padding: 0; }
+ul { list-style: none; margin: 0; padding: 0; }
