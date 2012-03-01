@@ -1,3 +1,4 @@
 {% include default.css %}
 
 body { padding-bottom: 5.5em; }
+p img { margin: 0 auto; }
