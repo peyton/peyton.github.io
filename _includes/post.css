@@ -2,4 +2,4 @@
 
 body { padding-bottom: 5.5em; }
 
-figure { display: block; text-align: center; }
+figure { display: block; margin: 0; padding: 0; text-align: center; }
