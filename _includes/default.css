@@ -3,7 +3,7 @@ article, section { display: block; max-width: 27em; margin: 0px auto; text-shado
 p { display: block; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 a { color: #6190e6; text-decoration: none; }
 a:hover { color: #a2b7dd; text-shadow: 0px 1px 0px #fff; }
-a, strong { font-size: 88.8888888%; }
+a { font-size: 88.8888888%; }
 h1, h2, h3, p { color: #333; }
 h1, h2, h3, a, strong { font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:600; font-stretch:normal; }
 h1, h2, h3 { line-height: 0.9; margin-top: 0; margin-bottom: 0; padding: 1.5em 0; }
