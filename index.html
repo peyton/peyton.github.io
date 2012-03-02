@@ -6,7 +6,9 @@ title: Peyton Randolph
   <h1>Back catalog</h1>
   <ul>
     {% for post in site.posts %}
-      <li><h2><a href="{{ post.url }}">{{ post.title }}</a></h2></li>
+        {% if post.shouldhide == null %}
+          <li><h2><a href="{{ post.url }}">{{ post.title }}</a></h2></li>
+        {% endif %}
     {% endfor %}
   <ul>
 </section>
