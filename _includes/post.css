@@ -2,5 +2,5 @@
 
 body { padding-bottom: 5.5em; }
 figure { display: block; margin-left: 0; margin-right: 0; text-align: center; }
-blockquote { font-size: 77.77%; line-height: 1.929; }
+blockquote { font-size: 77.77%; line-height: 1.929; margin-left: 1em; margin-right: 1em; }
 p time:only-child { display: block; float: right; }
