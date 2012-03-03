@@ -2,7 +2,4 @@
 
 body { padding-bottom: 5.5em; }
 figure { display: block; margin-left: 0; margin-right: 0; text-align: center; }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px}
-{
-    p { font-size: 200%; }
-}
+p time:only-child { display: block; float: right; }
