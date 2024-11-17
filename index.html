@@ -3,21 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peyton Randolph</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title>peyton</title>
     <style>
+        :root {
+            --background: #ffffff;
+            --text: #24292e;
+            --link: #0366d6;
+            --link-hover: #035fc7;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background: #0d1117;
+                --text: #c9d1d9;
+                --link: #58a6ff;
+                --link-hover: #79c0ff;
+            }
+        }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
             line-height: 1.6;
             max-width: 650px;
             margin: 0 auto;
             padding: 2rem;
-            background-color: #ffffff;
-            color: #24292e;
+            background-color: var(--background);
+            color: var(--text);
             min-height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
         h1 {
@@ -27,14 +45,15 @@
         }
 
         a {
-            color: #0366d6;
+            color: var(--link);
             text-decoration: none;
             font-size: 1.2rem;
             transition: color 0.2s ease;
+            margin-bottom: 1.5rem;
         }
 
         a:hover {
-            color: #035fc7;
+            color: var(--link-hover);
             text-decoration: underline;
         }
     </style>
